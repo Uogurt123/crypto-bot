@@ -10,7 +10,7 @@ import os
 
 BOT_TOKEN = os.getenv("8027726911:AAGk8Jp6WxEEpYaJH9ieQ9vg_W5JxJWGtIk")
 
-bot = Bot(token=8027726911:AAGk8Jp6WxEEpYaJH9ieQ9vg_W5JxJWGtIk)
+bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
 
