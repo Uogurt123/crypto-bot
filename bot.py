@@ -9,7 +9,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 import os
 from datetime import datetime
 
-BOT_TOKEN = os.getenv("8027726911:AAE1JFcVuTM3-sCUG1E5Bk1IuNAofNL2NsA")
+BOT_TOKEN = "8027726911:AAHGV3CsTQ1hjZxq4Z-IReu1sf-S3GJy7DE"
 
 bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
